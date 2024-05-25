@@ -242,6 +242,7 @@ class EditPrikaz:
 
     studBr: int
     prekoracenKapacitet: int # prekoracen kapacitet prostorije
+    duzinaTrajanja: int = 0
 
     def __str__(self):
         # predmet, predavac, tipNastave, studProgramOznake, prekoracenKapacitet -> diktira i boju
